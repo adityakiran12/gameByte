@@ -103,8 +103,9 @@ html{
     border: 10 solid #fff;
     overflow: hidden;
     float: left;
-	cursor: pointer;
-	 box-shadow: 0 5px 20px 0 black;
+    cursor: pointer;
+    box-shadow: 5px 5px 25px 0 rgba(46,60,73,0.5);
+    border-radius: 4px;
 }
 .child {
     height: 100%;
@@ -194,13 +195,14 @@ ul li a:hover{
 
 
 .card {
-	  box-shadow: 10px 10px 25px 0 black;
+	  box-shadow: -10px 5px 80px 0 black;
 	  max-width: 300px;
 	  text-align: center;
 	  font-family: arial;
 	  float: left;
 	  margin:39px;
 	  transition: .2s ease;
+	border-radius: 4px;
 }
 
 .price {
@@ -236,6 +238,8 @@ ul li a:hover{
 	display: inline-block;
 	vertical-align: middle;
 	box-shadow: -10px 10px 25px 0 black;
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
 		}	
 #cardContent{
 	width: 900px;
