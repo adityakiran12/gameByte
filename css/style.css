@@ -1,479 +1,471 @@
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-    padding: 0;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+	padding: 0;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 
 }
 
 #rev {
-    padding: 50px 50px;
-    max-width: 1200px;
-    text-align: center;
-    margin: 50px auto;
-    font-family: Century Gothic;
-    color: brown;
-    font-size: 35px;
+	padding: 50px 50px;
+	max-width: 1200px;
+	text-align: center;
+	margin: 50px auto;
+	font-family: Century Gothic;
+	color: brown;
+	font-size: 35px;
 }
 
 #store {
-    font-family: Century Gothic;
-    color: brown;
-    font-size: 35px;
-    right: 10%;
+	font-family: Century Gothic;
+	color: brown;
+	font-size: 35px;
+	right: 10%;
 }
 
 #trailer {
-    font-family: Century Gothic;
-    color: brown;
-    font-size: 35px;
+	font-family: Century Gothic;
+	color: brown;
+	font-size: 35px;
 }
 
 #cap2 {
-    position: absolute;
-    border: 1px;
-    padding: 16px;
-    font-family: 'Libre Barcode 128 Text', cursive;
-    font-size: 120px;
-    margin: 0;
-    color: black;
-    display: inline-block;
-    text-decoration: none;
+	position: absolute;
+	border: 1px;
+	padding: 16px;
+	font-family: 'Libre Barcode 128 Text', cursive;
+	font-size: 110px;
+	font-weight: bolder;
+	margin: 0;
+	color: dimgrey;
+	display: inline-block;
 }
 
 #cap3 {
-    position: absolute;
-    top: 70%;
-    left: 38%;
-    border: 1px;
-    padding: 16px;
-    font-family: Century Gothic;
-    font-size: 20px;
-    margin: 0;
-    color: black;
-    display: inline-block;
-    text-decoration: none;
+	position: absolute;
+	top: 80%;
+	left: 18%;
+	border: 1px;
+	padding: 16px;
+	font-family: Century Gothic;
+	font-size: 20px;
+	margin: 0;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
 }
 
 #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 3px;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 3px;
 }
 
 #myBtn:hover {
-    background-color: #555;
+	background-color: #555;
+	color: black;
 }
 
 .bgimg-1 {
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("images/bg34.jpg");
-
-    /*    background-attachment: fixed;*/
-    height: 100%;
-    width: 100%;
-    z-index: -8;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("images/122.jpg");
+	height: 100%;
+	width: 100%;
+	z-index: -8;
 }
 
 .wrapper {
-    padding: 50px 50px;
-    max-width: 1200px;
-    text-align: center;
-    margin: 50px auto;
+	padding: 50px 50px;
+	max-width: 1200px;
+	text-align: center;
+	margin: 50px auto;
 
 }
 
 .parent {
-    height: 100;
-    width: 100;
-    width: 45%;
-    margin: 20px;
-    height: 300px;
-    border: 10 solid #fff;
-    overflow: hidden;
-    float: left;
-    cursor: pointer;
-    box-shadow: 5px 5px 25px 0 rgba(46, 60, 73, 0.5);
-    border-radius: 4px;
+	position: relative;
+	height: 100;
+	width: 100;
+	width: 45%;
+	margin: 20px;
+	height: 300px;
+	border: 10 solid #fff;
+	overflow: hidden;
+	float: left;
+	cursor: pointer;
+	box-shadow: 5px 5px 25px 0 rgba(46, 60, 73, 0.5);
+	border-radius: 4px;
 }
 
 .child {
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all .5s;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all .5s;
 }
 
 
 .bg-one {
-    background-image: url(images/witcher3.png);
+	background-image: url(images/witcher3.png);
 }
 
 .bg-two {
-    background-image: url(images/1.jpg);
+	background-image: url(images/1.jpg);
 }
 
 .bg-three {
-    background-image: url(images/fifa.jpg);
+	background-image: url(images/fifa.jpg);
 }
 
 .bg-four {
-    background-image: url(images/bg4.jpg);
+	background-image: url(images/bg4.jpg);
 }
 
 .wrapper span {
-    display: none;
-    font-size: 35px;
-    color: #ffffff;
-    text-shadow: 0 4px rgb(0, 0, 0);
-    font-family: Trebuchet MS;
-    text-align: center;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 50px;
-    cursor: pointer;
+	display: none;
+	font-size: 35px;
+	color: #ffffff;
+	text-shadow: 0 4px rgb(0, 0, 0);
+	font-family: Trebuchet MS;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 50px;
+	cursor: pointer;
 }
 
 .parent:hover .child,
 .parent:focus .child {
-    transform: scale(1.2);
+	transform: scale(1.1)
 }
 
 .parent:hover .child:before,
 .parent:focus .child:before {
-    display: block;
+	display: block;
 }
 
 .parent:hover span,
 .parent:focus span {
-    display: block;
+	display: block;
 }
 
 .child:before {
-    content: "";
-    display: none;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
+	content: "";
+	display: none;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
 }
-
-video#bgvid {
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    background-size: cover;
-
-}
-
-video {
-    display: block;
-}
-
 
 ul {
-    list-style-type: none;
-    font-family: Trebuchet MS;
-    float: right;
-    font-size: 20px;
-    margin-top: 25px;
-    margin-right: 12px;
-    font-weight: 200;
+	list-style-type: none;
+	font-family: Trebuchet MS;
+	float: right;
+	font-size: 20px;
+	margin-top: 25px;
+	margin-right: 12px;
+	font-weight: 200;
 }
 
 ul li {
-    display: inline-block;
+	display: inline-block;
 }
 
 ul li a {
-    text-decoration: none;
-    color: black;
-    padding: 5px 20px;
-    border-radius: 20px;
-    border: 1px solid transparent;
-    transition: .6s ease;
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border-radius: 25px;
+	border: 1px solid transparent;
+	transition: .6s ease;
 }
 
 ul li a:hover {
-    background-color: black;
-    color: wheat;
+	background-color: white;
+	color: #0F2435;
 }
 
 
 .card {
-    box-shadow: -10px 5px 80px 0 black;
-    max-width: 300px;
-    text-align: center;
-    font-family: arial;
-    float: left;
-    margin: 39px;
-    transition: .2s ease;
-    border-radius: 4px;
+	box-shadow: 10px 5px 50px 0 black;
+	max-width: 300px;
+	text-align: center;
+	font-family: arial;
+	float: left;
+	margin: 39px;
+	transition: .2s ease;
+	border-radius: 4px;
+
+}
+
+.card img {
+	background-size: 100%;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
 }
 
 .price {
-    color: grey;
-    font-size: 22px;
+	color: grey;
+	font-size: 22px;
 }
 
 .card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: black;
-    background-color: dodgerblue;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-    transition: .5s ease-out;
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: black;
+	background-color: dodgerblue;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+	transition: .5s ease-out;
 
 }
 
 .card button:hover {
-    color: dodgerblue;
-    background-color: black;
-
+	color: dodgerblue;
+	background-color: black;
 }
 
 #cardWrapper {
-    margin-left: 130px;
-    margin-top: 30px;
+	position: relative;
+	margin-left: 130px;
+	margin-top: 30px;
 
 }
 
 #cardWrapper img {
-    height: 200px;
-    display: inline-block;
-    vertical-align: middle;
-    box-shadow: -10px 10px 25px 0 black;
-    border-bottom-left-radius: 4px;
-    border-top-left-radius: 4px;
+	height: 200px;
+	display: inline-block;
+	vertical-align: middle;
+	box-shadow: -10px 10px 20px 0 black;
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
 }
 
 #cardContent {
-    width: 900px;
-    height: 200px;
-    background-color: aliceblue;
-    padding: 20px;
-    box-sizing: border-box;
-    font-family: Trebuchet MS;
-    display: inline-block;
-    vertical-align: middle;
+	width: 900px;
+	height: 200px;
+	background-color: aliceblue;
+	padding: 20px;
+	box-sizing: border-box;
+	font-family: Trebuchet MS;
+	display: inline-block;
+	vertical-align: middle;
+
 }
 
 #cardContent h2 {
-    font-size: 1.3em;
-    font-weight: 400;
-    margin-bottom: 10px;
-    font-family: Trebuchet MS;
+	font-size: 1.3em;
+	font-weight: 400;
+	margin-bottom: 10px;
+	font-family: Trebuchet MS;
 }
 
 #cardContent p {
-    font-size: .9em;
-    line-height: 1.5;
-    color: #757575;
-    font-family: Trebuchet MS;
+	font-size: .9em;
+	line-height: 1.5;
+	color: #757575;
+	font-family: Trebuchet MS;
 }
 
 #cardContent h3 {
-    margin-top: 8px;
-    font-weight: 400;
-    font-size: 16px;
-    font-family: Trebuchet MS;
-    float: right;
-    color: black;
-    border: 1px solid transparent;
-    border-radius: 20px;
-    padding: 5px 20px;
-    transition: .6s ease;
+	margin-top: 8px;
+	font-weight: 400;
+	font-size: 16px;
+	font-family: Trebuchet MS;
+	float: right;
+	color: black;
+	border: 1px solid transparent;
+	border-radius: 20px;
+	padding: 5px 20px;
+	transition: .6s ease;
 }
 
 #cardContent h3:hover {
-    color: white;
-    background-color: black;
+	color: white;
+	background-color: black;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .footerMain {
-    background-color: #292c2f;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    font: bold 16px Trebuchet MS;
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px Trebuchet MS;
 
-    padding: 55px 50px;
-    margin-top: 80px;
+	padding: 55px 50px;
+	margin-top: 80px;
 }
 
 .footerMain .footer-left,
 .footerMain .footerCenter,
 .footerMain .footerRight {
-    display: inline-block;
-    vertical-align: top;
+	display: inline-block;
+	vertical-align: top;
 }
 
 /* Footer left */
 
 .footerMain .footer-left {
-    width: 40%;
+	width: 40%;
 }
 
 /* The company logo */
 
 .footerMain h3 {
-    color: #ffffff;
-    font-family: 'Libre Barcode 128 Text', cursive;
-    font-size: 70px;
-    margin: 0;
+	color: #ffffff;
+	font-family: 'Libre Barcode 128 Text', cursive;
+	font-size: 70px;
+	margin: 0;
 }
 
 /* Footer links */
 
 .footerMain .footerLinks {
-    color: white;
-    margin: 20px 0 12px;
-    padding: 0;
+	color: white;
+	margin: 20px 0 12px;
+	padding: 0;
 }
 
 .footerMain .footerLinks a {
-    display: inline-block;
-    line-height: 1.8;
-    text-decoration: none;
-    color: inherit;
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: inherit;
 }
 
 .footerMain .footerLinks a:hover {
-    color: dodgerblue;
+	color: dodgerblue;
 }
 
 .footerMain .footerCompany {
-    color: #8f9296;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
+	color: #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
 }
 
 /* Footer Center */
 
 .footerMain .footerCenter {
-    width: 35%;
+	width: 35%;
 }
 
 .footerMain .footerCenter i {
-    background-color: #33383b;
-    font-size: 25px;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 42px;
-    margin: 10px 15px;
-    vertical-align: middle;
-    color: white;
+	background-color: #33383b;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+	color: white;
 }
 
 .footerMain .footerCenter i.fa-envelope {
-    font-size: 17px;
-    line-height: 38px;
+	font-size: 17px;
+	line-height: 38px;
 }
 
 .footerMain .footerCenter p {
-    display: inline-block;
-    color: #ffffff;
-    vertical-align: middle;
-    margin: 0;
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin: 0;
 
 }
 
 .footerMain .footerCenter p span {
-    display: block;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 2;
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
 }
 
 .footerMain .footerCenter p a {
-    text-decoration: none;
-    ;
-    color: dodgerblue;
+	text-decoration: none;
+	;
+	color: dodgerblue;
 }
 
 
 /* Footer Right */
 
 .footerMain .footerRight {
-    width: 20%;
+	width: 20%;
 }
 
 .footerMain .footer-company-about {
-    line-height: 20px;
-    color: #92999f;
-    font-size: 13px;
-    font-weight: normal;
-    margin: 0;
+	line-height: 20px;
+	color: #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
 }
 
 .footerMain .footer-company-about span {
-    display: block;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 20px;
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 
 .footerMain .footerIcons {
-    margin-top: 25px;
+	margin-top: 25px;
 }
 
 .footerMain .footerIcons a {
-    display: inline-block;
-    width: 35px;
-    height: 26px;
-    cursor: pointer;
-    background-color: #33383b;
-    border-radius: 20px;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    margin-right: 3px;
-    margin-bottom: 5px;
+	display: inline-block;
+	width: 35px;
+	height: 26px;
+	cursor: pointer;
+	background-color: #33383b;
+	border-radius: 20px;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin-right: 3px;
+	margin-bottom: 5px;
 }
 
 .footerMain .footerIcons a:hover {
-    background-color: dodgerblue;
+	background-color: dodgerblue;
 }
 
 footer {
-    clear: both;
+	clear: both;
 }
