@@ -246,6 +246,9 @@ ul li a:hover {
 	transition: .5s ease-out;
 
 }
+card p button a{
+	color: black;
+}
 
 .card button:hover {
 	color: dodgerblue;
